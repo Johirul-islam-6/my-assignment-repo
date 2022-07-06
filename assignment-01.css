@@ -1,0 +1,468 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  scroll-behavior: smooth;
+}
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url("images/o.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1 {
+  color: rgb(228, 228, 228);
+  text-align: center;
+  font-size: 60px;
+  font-weight: 900;
+  text-shadow: 1px 1px 2px rgb(87, 87, 87), 0 0 25px rgb(42, 42, 42),
+    0 0 5px rgb(43, 43, 43);
+  letter-spacing: -3px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.p1 {
+  text-align: center;
+  color: #fff;
+  padding: 1% 20%;
+  font-size: 20px;
+  text-shadow: 1px 1px 2px rgb(100, 100, 100), 0 0 25px rgb(41, 41, 41),
+    0 0 5px rgb(44, 44, 44);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: normal;
+}
+.btn a {
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  color: #ffff;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 1px auto;
+  padding: 16px 40px;
+  margin-top: 30px;
+  background: linear-gradient(to bottom left, #ff8447 0%, #ff4747 100%);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* ------------------------------section 0 1  start ----------------------------------- */
+.section1 {
+  width: 100%;
+  height: 80vh;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.section1 .allcontaint {
+  padding: 0 25%;
+}
+.h2 {
+  font-size: 50px;
+  margin-top: 80px;
+  color: rgb(78, 76, 76);
+}
+
+.p2 {
+  padding: 20px 15px;
+  color: rgb(95, 94, 94);
+  font-size: 19px;
+  font-weight: 400;
+  justify-content: center;
+  text-align: center;
+}
+.section1 #active {
+  background: linear-gradient(to bottom left, #ff8447 0%, #ff4747 100%);
+  color: #fff;
+}
+
+.section1 .allbtn button {
+  margin: 20px 10px;
+  padding: 30px 35px;
+  background-color: rgb(231, 231, 231);
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(76, 76, 76);
+  box-shadow: 10px 10px 5px rgba(94, 94, 94, 0.443);
+}
+.section1 #fname {
+  width: 450px !important;
+  height: 60px !important;
+  border: none;
+  border-bottom: 1px solid rgb(95, 95, 95);
+  text-align: center;
+  font-size: 19px;
+  margin-top: 10px;
+}
+/* --------------------our donate plan start css---------------------- */
+.section2 {
+  width: 100%;
+  height: 80vh;
+  background-color: rgb(253, 253, 253);
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+.section2 .our-donate {
+  padding: 0 22%;
+}
+.section2 .allbox {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 40vh;
+  padding: 10px 5%;
+}
+.section2 .allbox .div1 {
+  width: 450px;
+  height: 350px;
+  display: block;
+  margin: 10px 40px;
+  border-radius: 10px;
+  padding: 10px 0px;
+  background-color: rgba(147, 205, 212, 0.237);
+  border: none;
+  padding-left: 18px;
+  box-shadow: 1px 1px 2px rgb(39, 39, 39), 0 0 25px rgb(41, 41, 41),
+    0 0 5px rgb(39, 39, 39);
+}
+.section2 .allbox .div2 {
+  width: 450px;
+  height: 350px;
+  margin: 13px 40px;
+  display: block;
+  border-radius: 10px;
+  padding: 15px 15px;
+  background-color: rgba(190, 186, 186, 0.598);
+  border: none;
+  padding-left: 30px;
+  box-shadow: 1px 2px 3px rgb(255, 210, 119), 0 0 25px rgb(41, 41, 41),
+    0 0 5px rgba(255, 250, 100, 0.719);
+}
+.section2 .allbox .div3 {
+  width: 450px;
+  height: 350px;
+  margin: 10px 40px;
+  display: block;
+  border-radius: 10px;
+  padding: 10px 11px;
+  background-color: rgba(252, 182, 90, 0.153);
+  border: none;
+  padding-left: 18px;
+  box-shadow: 1px 2px 3px rgb(39, 39, 39), 0 0 25px rgb(41, 41, 41),
+    0 0 5px rgb(124, 124, 124);
+}
+#icon1 {
+  width: 80px;
+  height: 55px;
+  font-size: 55px;
+  justify-content: center;
+  color: rgb(183, 180, 180);
+  margin-top: 20px;
+}
+#icon2 {
+  width: 80px;
+  height: 60px;
+  font-size: 45px;
+  justify-content: center;
+  color: rgb(146, 65, 65);
+  margin-top: 10px;
+}
+#icon3 {
+  width: 80px;
+  height: 60px;
+  font-size: 45px;
+  justify-content: center;
+  color: rgb(7, 152, 192);
+  margin-top: 10px;
+}
+h4 {
+  text-align: center;
+  padding: 5px 20px;
+  color: rgb(46, 46, 46);
+  padding-top: 6px;
+  font-size: 25px;
+}
+p {
+  padding: 5px 5px;
+  text-align: left;
+  justify-content: center;
+  color: rgba(81, 81, 81, 0.799);
+  font-size: 18px;
+  font-weight: 400;
+  align-items: center;
+  justify-content: center;
+}
+.donate-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px auto;
+  padding: 13px 20px;
+  margin-top: 10px;
+  background: linear-gradient(to bottom left, #ff8447 0%, #ff4747 100%);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 14px;
+}
+.donate-button a {
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+}
+/* ----------------------------------sction03----------satar----------- */
+
+.allimge-gallary {
+  width: 100%;
+  height: auto;
+  padding: 20px 0.5%;
+  display: block;
+}
+.h1s {
+  font-size: 45px;
+  font-weight: 900;
+  background: linear-gradient(
+    to bottom left,
+    rgba(252, 182, 90, 0.6) 20%,
+    #fc7664c2 100%
+  );
+  text-align: center;
+  margin: 30px 0;
+  width: 80%;
+  height: 100px;
+  margin: 0 auto;
+  color: rgb(58, 58, 58);
+  border-radius: 80px 0 80px 0px;
+  align-items: center;
+  display: flex;
+  padding: 0 20px;
+  justify-content: center;
+  text-shadow: 1px 1px 2px rgb(249, 249, 249), 0 0 25px rgb(255, 255, 255),
+    0 0 5px rgb(220, 220, 220);
+}
+
+.allimge-gallary img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 2px;
+  width: 350px;
+  height: 230px;
+  margin: 10px 5px;
+  box-shadow: 1px 1px 2px rgb(255, 230, 138), 0 0 25px rgb(59, 59, 59),
+    0 0 5px rgb(49, 86, 198);
+}
+
+/* ------------------------------------Mydiv section-------------------------------- */
+
+.mydiv {
+  width: 100%;
+  height: 140vh;
+  display: block;
+  justify-content: center;
+  padding: 0 10px;
+}
+.mydiv .myimage1 {
+  width: 50%;
+  height: 5vh;
+  justify-content: left;
+  margin-top: 0vh;
+  border-radius: 400px;
+}
+.mydiv .myimage2 {
+  width: 90%;
+  height: auto;
+  margin-left: 10%;
+  text-align: center;
+  padding-left: 30%;
+  margin-top: 10vh;
+}
+.army-helped {
+  width: 100%;
+  height: 60vh;
+  padding: 5px 10px;
+  border-radius: 50px 0 50px 0;
+}
+.say-someting {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(86, 86, 86);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.BD-army {
+  margin: 10px auto;
+  text-align: center;
+  color: #ff7b4799;
+}
+
+.All-say {
+  width: 100%;
+}
+.head {
+  text-align: left;
+
+  margin-left: 80px;
+}
+.johirul {
+  font-size: 26px;
+  font-weight: 900;
+  text-align: left;
+  margin-left: 100px;
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.171), 0 0 25px rgb(255, 255, 255),
+    0 0 5px rgb(255, 225, 225);
+}
+span {
+  color: rgba(100, 152, 248, 0.811) !important;
+  font-size: 16px;
+}
+/* ----------------------------------sction04----------satar----------- */
+.section4 {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.get-my-updates {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  padding: 0 5%;
+  background-color: #ffffff86;
+}
+.container {
+  width: 80%;
+  height: 250px;
+  background: linear-gradient(
+    to bottom left,
+    rgba(252, 182, 90, 0.413) 20%,
+    #85c0fb6f 100%
+  );
+  box-shadow: 10px 10px 5px lightblue;
+  margin: 0 auto;
+  display: block;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p5 {
+  padding: 15px 20%;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+form #lname {
+  width: 380px;
+  height: 50px;
+  background-color: #ffffff69;
+  border: none;
+  border-radius: 8px 0 0 8px;
+  padding: 0 20px;
+  color: rgb(176, 175, 175);
+  font-weight: 900;
+  font-style: normal;
+}
+form #input {
+  padding: 16px 22px;
+  background: linear-gradient(to bottom left, #ff8447 0%, #ff4747 100%);
+  color: #ffff;
+  border: none;
+  font-size: 15px;
+  border-radius: 0px 10px 10px 0;
+}
+
+/* -----------------------------------section4 end-------------------------------- */
+
+/* -----------------------------------footer start----------------------- */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 40vh;
+  background-image: linear-gradient(
+    to left,
+    rgba(177, 50, 28, 0.717),
+    rgba(45, 128, 222, 0.781)
+  );
+  border-radius: 15px 15px 0px 0px;
+  color: rgb(255, 255, 255);
+}
+
+footer p {
+  text-align: center;
+}
+.div1 {
+  margin: 6px 10%;
+}
+.div1 h2 {
+  text-align: left;
+  color: rgb(240, 239, 239);
+}
+#alldiv1 a {
+  text-decoration: none;
+  color: rgb(226, 226, 226);
+  font-size: 18px;
+  text-align: center;
+  font-weight: 200;
+}
+#alldiv1 a:hover {
+  text-decoration: underline;
+}
+#alldiv1 h5 {
+  margin: 10px 0;
+}
+
+/* --------------------icon----------------------- */
+
+.icons #fa {
+  color: rgb(255, 255, 255);
+  width: 30px;
+  height: 20px;
+  margin: 0 5px;
+  font-size: 30px;
+  transition: all 0.6s;
+  top: 0;
+  rotate: 0eg;
+}
+
+.contact {
+  text-align: center;
+  font-weight: 900;
+  font-size: 27px;
+  color: #ffb789;
+  margin-bottom: 15px;
+}
+
+.thanks {
+  display: flex;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(82, 82, 82);
+  justify-content: center;
+}
+span {
+  color: tomato;
+  font-weight: 900;
+}
